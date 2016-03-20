@@ -1,7 +1,7 @@
 clone:
   skip_verify: true
 build:
-  image: alpine:latest
+  image: registry.shurenyun.com/gliderlabs_alpine
   commands:
     - echo 'done'
 

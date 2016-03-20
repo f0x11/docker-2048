@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM registry.shurenyun.com/gliderlabs_alpine
 
 MAINTAINER alex <alexwhen@gmail.com> 
 

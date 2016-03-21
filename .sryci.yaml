@@ -4,6 +4,8 @@ build:
   image: registry.shurenyun.com/gliderlabs_alpine
   commands:
     - cat /etc/hosts
+    - ping gaga.dataman-inc.com
+    - ping gogo.dataman-inc.com
     - echo 'done'
 
 publish:

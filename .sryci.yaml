@@ -3,7 +3,7 @@ clone:
 build:
   image: registry.shurenyun.com/gliderlabs_alpine
   commands:
-    - ping gaga.dataman-inc.com
+    - ping baidu.com
     - echo 'done'
 
 publish:

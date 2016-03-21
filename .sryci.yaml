@@ -3,7 +3,7 @@ clone:
 build:
   image: registry.shurenyun.com/gliderlabs_alpine
   commands:
-    - ping baidu.com
+    - cat /etc/hosts
     - echo 'done'
 
 publish:

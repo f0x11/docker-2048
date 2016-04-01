@@ -2,7 +2,7 @@ FROM registry.shurenyun.com/gliderlabs_alpine
 
 MAINTAINER alex <alexwhen@gmail.com> 
 
-RUN apk --update add nginx
+RUN apk --update add nginx && mkdir /tmp/nginx
 
 COPY 2048 /usr/share/nginx/html
 COPY nginx.conf /etc/nginx/nginx.log.conf
